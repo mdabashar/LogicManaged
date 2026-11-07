@@ -50,7 +50,7 @@ nav a:hover { color: var(--ink-teal); text-decoration: underline; text-underline
   background: radial-gradient(ellipse at 87% 37%, #e0f6fc 0%, transparent 56%), linear-gradient(120deg, #fff 12%, #f1f8fc 95%);
   padding-block: clamp(58px, 7vw, 112px);
 }
-.hero-grid { display: grid; grid-template-columns: 1.08fr 1fr; align-items: center; gap: clamp(32px, 6vw, 96px); }
+.hero-grid { display: grid; grid-template-columns: 1.08fr 1fr; align-items: start; gap: clamp(32px, 6vw, 96px); }
 .eyebrow { display: flex; align-items: center; gap: 11px; color: var(--ink-teal); font-size: .77rem; font-weight: 750; letter-spacing: .11em; line-height: 1.35; text-transform: uppercase; }
 .location { width: fit-content; padding: 8px 11px; border: 1px solid #c9e7ef; border-radius: 6px; background: #eef9fc; }
 h1, h2, h3, h4, .workflow-title { line-height: 1.08; letter-spacing: -.035em; }
