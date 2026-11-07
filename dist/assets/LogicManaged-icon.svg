@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="168" height="168" viewBox="0 0 168 168">
+<defs><clipPath id="tile"><rect width="168" height="168" rx="40"/></clipPath></defs>
+<g clip-path="url(#tile)"><rect width="168" height="168" fill="#081430"/>
+<svg x="0" y="0" width="168" height="168" viewBox="-8.92 -8.92 81.85 81.85" fill="none" stroke-linecap="round" stroke-linejoin="round">
+<defs>
+<radialGradient id="lmGlow" cx="0.68" cy="0.3" r="0.85">
+<stop offset="0" stop-color="#3FA9F5"></stop>
+<stop offset="0.35" stop-color="#1560B0"></stop>
+<stop offset="0.75" stop-color="#0A2A5E"></stop>
+<stop offset="1" stop-color="#061026"></stop>
+</radialGradient>
+<radialGradient id="lmBokeh" cx="0.5" cy="0.5" r="0.5">
+<stop offset="0" stop-color="#FFFFFF" stop-opacity="0.35"></stop>
+<stop offset="0.8" stop-color="#CFEFFF" stop-opacity="0.18"></stop>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0.45"></stop>
+</radialGradient>
+<pattern id="lmGrid" width="3.2" height="3.2" patternUnits="userSpaceOnUse">
+<path d="M3.2 0 V3.2 M0 3.2 H3.2" stroke="#FFFFFF" stroke-width="0.12"></path>
+</pattern>
+</defs>
+<rect x="-8.92" y="-8.92" width="81.85" height="81.85" fill="url(#lmGlow)"></rect>
+<g opacity="1">
+<path d="M18.6 -0.3 L45.4 -0.3 L64.3 18.6 L64.3 45.4 L45.4 64.3 L18.6 64.3 L-0.3 45.4 L-0.3 18.6 L18.6 -0.3" stroke="#FFFFFF" stroke-width="1" stroke-dasharray="0.1 2.4" opacity="0.55"></path>
+<path d="M45.4 -0.3 L41.6 8.9 M64.3 18.6 L55.1 22.4 M64.3 45.4 L55.1 41.6 M45.4 64.3 L41.6 55.1 M18.6 64.3 L22.4 55.1 M-0.3 45.4 L8.9 41.6 M-0.3 18.6 L8.9 22.4 M18.6 -0.3 L22.4 8.9" stroke="#FFFFFF" stroke-width="0.8" opacity="0.45"></path>
+<g fill="#0A2A5E" stroke-width="0.9">
+<circle cx="45.4" cy="-0.3" r="2.6" stroke="#22D3EE"></circle>
+<circle cx="64.3" cy="18.6" r="2.6" stroke="#FFFFFF" stroke-opacity="0.7"></circle>
+<circle cx="64.3" cy="45.4" r="2.6" stroke="#22D3EE"></circle>
+<circle cx="45.4" cy="64.3" r="2.6" stroke="#FFFFFF" stroke-opacity="0.7"></circle>
+<circle cx="18.6" cy="64.3" r="2.6" stroke="#22D3EE"></circle>
+<circle cx="-0.3" cy="45.4" r="2.6" stroke="#FFFFFF" stroke-opacity="0.7"></circle>
+<circle cx="-0.3" cy="18.6" r="2.6" stroke="#22D3EE"></circle>
+<circle cx="18.6" cy="-0.3" r="2.6" stroke="#FFFFFF" stroke-opacity="0.7"></circle>
+</g>
+<g fill="#FFFFFF" opacity="0.6">
+<circle cx="41.6" cy="8.9" r="1.1"></circle>
+<circle cx="55.1" cy="22.4" r="1.1"></circle>
+<circle cx="55.1" cy="41.6" r="1.1"></circle>
+<circle cx="41.6" cy="55.1" r="1.1"></circle>
+<circle cx="22.4" cy="55.1" r="1.1"></circle>
+<circle cx="8.9" cy="41.6" r="1.1"></circle>
+<circle cx="8.9" cy="22.4" r="1.1"></circle>
+<circle cx="22.4" cy="8.9" r="1.1"></circle>
+</g>
+</g>
+<g transform="translate(9 9.3) scale(0.72)">
+<path d="M30 10 C26 6 19 7 17 12 C12 11 8 15 9 20 C5 22 4 28 7 31 C4 35 5 41 10 43 C10 49 15 53 20 52 C22 56 27 57 30 54 Z" fill="#061026" fill-opacity="0.55" stroke="#FFFFFF" stroke-width="4"></path>
+<path d="M30 22 H21" stroke="#FFFFFF" stroke-width="4"></path>
+<circle cx="18.5" cy="22" r="2.5" fill="#FFFFFF"></circle>
+<path d="M30 33 H15" stroke="#FFFFFF" stroke-width="4"></path>
+<circle cx="12.5" cy="33" r="2.5" fill="#FFFFFF"></circle>
+<path d="M30 44 H24 L21 47" stroke="#FFFFFF" stroke-width="4"></path>
+<circle cx="19.5" cy="48.5" r="2.5" fill="#FFFFFF"></circle>
+<path d="M34 10 C38 6 45 7 47 12 C52 11 56 15 55 20 C59 22 60 28 57 31 C60 35 59 41 54 43 C54 49 49 53 44 52 C42 56 37 57 34 54 Z" fill="#061026" fill-opacity="0.55" stroke="#22D3EE" stroke-width="4"></path>
+<path d="M34 20 H40 L43 17" stroke="#22D3EE" stroke-width="4"></path>
+<circle cx="44.5" cy="15.5" r="2.5" fill="#22D3EE"></circle>
+<path d="M34 33 H49" stroke="#22D3EE" stroke-width="4"></path>
+<circle cx="51.5" cy="33" r="2.5" fill="#22D3EE"></circle>
+<path d="M34 44 H43" stroke="#22D3EE" stroke-width="4"></path>
+<circle cx="45.5" cy="44" r="2.5" fill="#22D3EE"></circle>
+</g>
+</svg></g></svg>
