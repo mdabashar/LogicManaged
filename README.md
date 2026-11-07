@@ -3,7 +3,7 @@
 A static website for LogicManaged’s business automation, software development and ongoing support services.
 
 ## Check it here
-https://mdabashar.github.io/LogicManaged/s
+https://mdabashar.github.io/LogicManaged/
 
 ## Local preview
 
