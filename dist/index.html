@@ -19,6 +19,7 @@
     <symbol id="mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m4 7 8 6 8-6"/></symbol>
     <symbol id="spark" viewBox="0 0 24 24"><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2m0-14-2 2M7 17l-2 2"/><path d="m12 7 1.5 3.5L17 12l-3.5 1.5L12 17l-1.5-3.5L7 12l3.5-1.5Z"/></symbol>
     <symbol id="check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
+    <symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
     <symbol id="support" viewBox="0 0 24 24"><path d="M3 14v-2a9 9 0 0 1 18 0v2m0 2v2a3 3 0 0 1-3 3h-4"/><rect x="3" y="11" width="5" height="7" rx="2"/><rect x="16" y="11" width="5" height="7" rx="2"/></symbol>
     <symbol id="chart" viewBox="0 0 24 24"><path d="M4 4v16h16M9 16v-4m5 4V8m5 8V5"/></symbol>
     <symbol id="software" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18m-13 5h3m3 0h2m-8 3h6"/></symbol>
@@ -64,16 +65,16 @@
         </div>
 
         <figure class="workflow">
-          <figcaption><span class="indicator"></span> Example workflow</figcaption>
+          <figcaption><span class="indicator"></span> Automation in practice</figcaption>
           <div class="workflow-content">
-            <p class="workflow-title">From enquiry to next step</p>
+            <p class="workflow-title">From quote request to follow-up</p>
             <ol class="workflow-steps">
-              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#mail"/></svg></span><div><strong>Enquiry arrives</strong><small>A customer fills in your website form</small></div><span class="flow-number" aria-hidden="true">01</span></li>
-              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#spark"/></svg></span><div><strong>AI sorts and drafts</strong><small>It tags the request and drafts a reply</small></div><span class="flow-number" aria-hidden="true">02</span></li>
-              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#check"/></svg></span><div><strong>Your team reviews</strong><small>The right person checks and sends it</small></div><span class="flow-number" aria-hidden="true">03</span></li>
+              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#mail"/></svg></span><div><strong>A customer requests a quote</strong><small>Your website form creates a job in your system.</small></div><span class="flow-number" aria-hidden="true">01</span></li>
+              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#spark"/></svg></span><div><strong>AI prepares the job summary</strong><small>It pulls out details such as the work requested and the preferred dates.</small></div><span class="flow-number" aria-hidden="true">02</span></li>
+              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#check"/></svg></span><div><strong>Your team checks and sends the quote</strong><small>Someone reviews the job details, sets the price and sends the quote.</small></div><span class="flow-number" aria-hidden="true">03</span></li>
+              <li><span class="flow-icon"><svg class="icon" aria-hidden="true"><use href="#clock"/></svg></span><div><strong>The system reminds you to follow up</strong><small>If there’s no reply after three business days, it creates a follow-up task.</small></div><span class="flow-number" aria-hidden="true">04</span></li>
             </ol>
           </div>
-          <div class="workflow-foot"><span></span> Your team stays in control</div>
         </figure>
       </div>
     </section>
@@ -151,33 +152,53 @@
       <div class="wrap">
         <div class="section-intro">
           <div><p class="eyebrow"><span class="section-index">03</span> Demos</p><h2 id="demos-title">Try a few examples</h2></div>
-          <p>Explore an online grocery shop, a travel checklist and other examples of what a website or app can do.</p>
+          <p>See how these websites and apps handle shopping, trip planning, bookings and more. Open any demo to try it yourself.</p>
         </div>
         <ul class="demo-list">
           <li>
-            <span class="demo-category">Online shop</span>
-            <div><h3>Brismart</h3><p>A clickable grocery shop prototype for browsing products from a Brisbane grocer.</p></div>
-            <a class="text-link" href="https://mdabashar.github.io/Brismart/" aria-label="Open Brismart demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            <img class="demo-image" src="assets/demos/brismart.webp" alt="Brismart storefront with grocery categories and a shopping basket" width="960" height="600" loading="lazy" decoding="async">
+            <div class="demo-copy">
+              <span class="demo-category">Online shop</span>
+              <h3>Brismart</h3>
+              <p>An online grocery shop where customers can browse products from a Brisbane grocer and add items to their basket.</p>
+              <a class="text-link" href="https://mdabashar.github.io/Brismart/" aria-label="Open Brismart demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            </div>
           </li>
           <li>
-            <span class="demo-category">Travel app</span>
-            <div><h3>WayStep</h3><p>A travel checklist designed to work offline, so you can keep track of trip tasks on the go.</p></div>
-            <a class="text-link" href="https://mdabashar.github.io/WayStep/" aria-label="Open WayStep demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            <img class="demo-image" src="assets/demos/waystep.webp" alt="WayStep travel planner and checklist interface" width="960" height="600" loading="lazy" decoding="async">
+            <div class="demo-copy">
+              <span class="demo-category">Travel app</span>
+              <h3>WayStep</h3>
+              <p>A travel checklist designed to work offline, so you can keep track of trip tasks on the go.</p>
+              <a class="text-link" href="https://mdabashar.github.io/WayStep/" aria-label="Open WayStep demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            </div>
           </li>
           <li>
-            <span class="demo-category">Trade website</span>
-            <div><h3>AUS Building &amp; Maintenance</h3><p>A site where customers can see building services and recent projects and find out how to request a quote.</p></div>
-            <a class="text-link" href="https://mdabashar.github.io/aus-building-maintenance/" aria-label="Open AUS Building and Maintenance demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            <img class="demo-image" src="assets/demos/aus-building-maintenance.webp" alt="AUS Building and Maintenance homepage with a quote enquiry button" width="960" height="600" loading="lazy" decoding="async">
+            <div class="demo-copy">
+              <span class="demo-category">Trade website</span>
+              <h3>AUS Building &amp; Maintenance</h3>
+              <p>A site where customers can see building services and recent projects and find out how to request a quote.</p>
+              <a class="text-link" href="https://mdabashar.github.io/aus-building-maintenance/" aria-label="Open AUS Building and Maintenance demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            </div>
           </li>
           <li>
-            <span class="demo-category">Booking website</span>
-            <div><h3>Archademix</h3><p>A tutoring and study coaching website with a study planner and an online booking page.</p></div>
-            <a class="text-link" href="https://archademix.com/" aria-label="Open Archademix demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            <img class="demo-image" src="assets/demos/archademix.webp" alt="Archademix tutoring homepage with a session booking button" width="960" height="600" loading="lazy" decoding="async">
+            <div class="demo-copy">
+              <span class="demo-category">Booking website</span>
+              <h3>Archademix</h3>
+              <p>A tutoring and study coaching website with a study planner and an online booking page.</p>
+              <a class="text-link" href="https://archademix.com/" aria-label="Open Archademix demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            </div>
           </li>
           <li>
-            <span class="demo-category">Learning game</span>
-            <div><h3>Montessori Math Adventure</h3><p>An interactive browser game for practising maths.</p></div>
-            <a class="text-link" href="https://mdabashar.github.io/Simple-Games/montessori-math-v3-improved-fixed.html" aria-label="Open Montessori Math Adventure demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            <img class="demo-image" src="assets/demos/montessori-math-adventure.webp" alt="Montessori Math Adventure game screen" width="960" height="600" loading="lazy" decoding="async">
+            <div class="demo-copy">
+              <span class="demo-category">Learning game</span>
+              <h3>Montessori Math Adventure</h3>
+              <p>An interactive browser game for practising maths.</p>
+              <a class="text-link" href="https://mdabashar.github.io/Simple-Games/montessori-math-v3-improved-fixed.html" aria-label="Open Montessori Math Adventure demo">Open demo <svg class="icon" aria-hidden="true"><use href="#external"/></svg></a>
+            </div>
           </li>
         </ul>
       </div>
