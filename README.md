@@ -19,4 +19,4 @@ Open [the local preview](http://127.0.0.1:8765/). The site uses plain HTML, CSS 
 
 The GitHub Pages workflow publishes `dist/` on pushes to `main`.
 
-The enquiry form previews sample details in the browser. Contact details are placeholders pending confirmation.
+The Contact section links to the business email. The enquiry form previews sample details in the browser.
